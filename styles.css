@@ -107,11 +107,11 @@ body {
 }
 
 .accent-link {
-  color: #a073d8 !important;
+  color: #666 !important;
 }
 
 .accent-link:hover {
-  color: #8e5fc7 !important;
+  color: #444 !important;
 }
 
 body.menu-open .mobile-nav {
