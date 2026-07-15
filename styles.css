@@ -27,13 +27,31 @@ body {
 }
 
 /* Keep the top navigation aligned identically across all pages. */
+.cento-header {
+  box-sizing: border-box;
+}
+
+.cento-header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cento-header .logo {
+  width: 100%;
+}
+
 .cento-header .nav-wrap {
   overflow: visible;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .desktop-nav {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .desktop-nav .wsite-menu-default {
@@ -41,6 +59,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin: 0;
 }
 
 .desktop-nav .wsite-menu-item-wrap {
@@ -50,6 +69,7 @@ body {
 
 .desktop-nav .wsite-menu-item-wrap > a.wsite-menu-item {
   padding: 5px 15px;
+  display: block;
 }
 
 body.menu-open .mobile-nav {
