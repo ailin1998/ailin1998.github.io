@@ -1,0 +1,7 @@
+
+@font-face {
+	font-family: 'Journal';
+	src: url('../fonts/172-regular.eot');
+	src: url('../fonts/172-regular.eot') format('embedded-opentype'),
+			url('../fonts/173-regular.ttf') format('truetype');
+}

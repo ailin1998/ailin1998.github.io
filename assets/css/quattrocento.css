@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/016-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/017-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/018-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/019-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/020-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/021-bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/022-bold.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/023-bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/024-bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/025-bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}

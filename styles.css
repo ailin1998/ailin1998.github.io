@@ -1,0 +1,51 @@
+/* Local overrides to keep the GitHub Pages copy close to the Weebly original
+   while removing Weebly-only scripts and footer ads. */
+
+body {
+  background: #fff;
+}
+
+.footer-wrap {
+  min-height: 24px;
+}
+
+.footer {
+  padding: 0;
+}
+
+.paragraph a {
+  text-decoration: none;
+}
+
+.paragraph a:hover,
+.wsite-menu-item:hover {
+  opacity: 0.8;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+body.menu-open .mobile-nav {
+  display: block;
+}
+
+@media screen and (max-width: 992px) {
+  .mobile-nav {
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 12px 0 18px;
+  }
+
+  .mobile-nav .wsite-menu-default {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 1040px;
+    padding: 0 24px;
+  }
+
+  .mobile-nav .wsite-menu-item-wrap {
+    margin: 0;
+    padding: 10px 0;
+  }
+}

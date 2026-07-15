@@ -1,0 +1,44 @@
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/199-ultralight.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/200-ultralight.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/201-ultralight.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/202-ultralight.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/203-ultralight.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/204-light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/205-light.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/206-light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/207-light.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/208-light.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/209-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/210-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/211-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/212-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/213-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/214-bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/215-bold.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/216-bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/217-bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/218-bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}

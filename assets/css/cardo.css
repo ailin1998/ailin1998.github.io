@@ -1,0 +1,33 @@
+
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/001-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/002-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/003-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/004-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/005-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Cardo';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/006-italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/007-italic.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/008-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/009-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/010-italic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/011-bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/012-bold.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/013-bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/014-bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/015-bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
