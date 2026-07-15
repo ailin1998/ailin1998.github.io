@@ -102,6 +102,18 @@ body {
   line-height: 19px;
 }
 
+.contact-text {
+  color: #000;
+}
+
+.accent-link {
+  color: #c5a3d9 !important;
+}
+
+.accent-link:hover {
+  color: #b48ccb !important;
+}
+
 body.menu-open .mobile-nav {
   display: block;
 }
