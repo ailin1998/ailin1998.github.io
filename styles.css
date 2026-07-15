@@ -5,6 +5,10 @@ body {
   background: #fff;
 }
 
+.container {
+  overflow: visible;
+}
+
 .footer-wrap {
   min-height: 24px;
 }
@@ -29,6 +33,7 @@ body {
 /* Keep the top navigation aligned identically across all pages. */
 .cento-header {
   box-sizing: border-box;
+  padding-top: 40px;
 }
 
 .cento-header .container {
@@ -39,6 +44,24 @@ body {
 
 .cento-header .logo {
   width: 100%;
+  min-height: 48px;
+  margin: 0 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cento-header .logo .wsite-logo,
+.cento-header .logo .wsite-logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  line-height: 1;
+}
+
+.cento-header .logo #wsite-title {
+  line-height: 1 !important;
 }
 
 .cento-header .nav-wrap {
@@ -46,12 +69,17 @@ body {
   width: 100%;
   padding-left: 0;
   padding-right: 0;
+  min-height: 39px;
+  display: flex;
+  align-items: center;
 }
 
 .desktop-nav {
   display: flex;
   justify-content: center;
   width: 100%;
+  min-height: 39px;
+  align-items: center;
 }
 
 .desktop-nav .wsite-menu-default {
@@ -60,6 +88,7 @@ body {
   justify-content: center;
   width: 100%;
   margin: 0;
+  min-height: 39px;
 }
 
 .desktop-nav .wsite-menu-item-wrap {
@@ -70,6 +99,7 @@ body {
 .desktop-nav .wsite-menu-item-wrap > a.wsite-menu-item {
   padding: 5px 15px;
   display: block;
+  line-height: 19px;
 }
 
 body.menu-open .mobile-nav {
