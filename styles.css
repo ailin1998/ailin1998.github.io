@@ -26,6 +26,32 @@ body {
   display: none;
 }
 
+/* Keep the top navigation aligned identically across all pages. */
+.cento-header .nav-wrap {
+  overflow: visible;
+}
+
+.desktop-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.desktop-nav .wsite-menu-default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop-nav .wsite-menu-item-wrap {
+  display: block;
+  padding: 0;
+}
+
+.desktop-nav .wsite-menu-item-wrap > a.wsite-menu-item {
+  padding: 5px 15px;
+}
+
 body.menu-open .mobile-nav {
   display: block;
 }
