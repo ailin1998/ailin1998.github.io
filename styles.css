@@ -122,6 +122,10 @@ body {
   color: #63314d !important;
 }
 
+.jmp-label {
+  color: #000;
+}
+
 body.menu-open .mobile-nav {
   display: block;
 }
