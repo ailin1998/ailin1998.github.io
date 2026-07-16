@@ -114,6 +114,14 @@ body {
   color: #444 !important;
 }
 
+.research-link {
+  color: #7b3f61 !important;
+}
+
+.research-link:hover {
+  color: #63314d !important;
+}
+
 body.menu-open .mobile-nav {
   display: block;
 }
