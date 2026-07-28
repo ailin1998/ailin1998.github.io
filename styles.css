@@ -132,7 +132,9 @@ body.menu-open .mobile-nav {
 
 @media screen and (min-width: 993px) {
   .wsite-page-research .content-wrap .container {
-    max-width: 1040px;
+    max-width: 1180px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }
 
