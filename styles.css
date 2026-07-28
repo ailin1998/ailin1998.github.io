@@ -130,6 +130,12 @@ body.menu-open .mobile-nav {
   display: block;
 }
 
+@media screen and (min-width: 993px) {
+  .wsite-page-research .content-wrap .container {
+    max-width: 1040px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .mobile-nav {
     background: #fff;
