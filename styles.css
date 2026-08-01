@@ -77,7 +77,8 @@ body {
 .desktop-nav {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: auto;
+  margin: 0 auto;
   min-height: 39px;
   align-items: center;
 }
@@ -86,8 +87,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  margin: 0;
+  width: auto;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
   min-height: 39px;
 }
 
@@ -156,5 +159,106 @@ body.menu-open .mobile-nav {
   .mobile-nav .wsite-menu-item-wrap {
     margin: 0;
     padding: 10px 0;
+  }
+}
+
+.creative-section {
+  max-width: 900px;
+  margin: 46px auto 18px;
+  padding: 0 12px 28px;
+}
+
+body.wsite-page-creative {
+  overflow-x: hidden;
+}
+
+.creative-title {
+  margin: 0 0 18px;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #2f2f2f;
+}
+
+.creative-copy {
+  color: #333;
+  line-height: 1.78;
+  margin-bottom: 140px;
+}
+
+.creative-page .creative-copy,
+.creative-page .creative-label {
+  font-size: 16px;
+}
+
+.creative-row {
+  display: grid;
+  grid-template-columns: 108px minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+  margin-top: 22px;
+}
+
+.creative-page .creative-row:first-of-type {
+  margin-top: 52px;
+}
+
+.creative-label {
+  padding-top: 96px;
+  color: #6d6d6d;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.creative-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px;
+  justify-items: center;
+  align-items: center;
+}
+
+.creative-card {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  overflow: visible;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creative-card img {
+  display: block;
+  width: 185px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media screen and (max-width: 900px) {
+  .creative-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .creative-label {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .creative-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .creative-card img {
+    width: 195px;
+    max-width: 100%;
+    height: auto;
   }
 }
