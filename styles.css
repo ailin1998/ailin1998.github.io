@@ -70,32 +70,29 @@ body {
   padding-left: 0;
   padding-right: 0;
   min-height: 39px;
-  display: flex;
-  align-items: center;
+  text-align: center;
 }
 
 .desktop-nav {
-  display: flex;
-  justify-content: center;
-  width: auto;
-  margin: 0 auto;
+  display: block;
+  width: 100%;
+  margin: 0;
   min-height: 39px;
-  align-items: center;
+  text-align: center;
 }
 
 .desktop-nav .wsite-menu-default {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   width: auto;
   margin: 0 auto;
   padding: 0;
   list-style: none;
   min-height: 39px;
+  vertical-align: top;
 }
 
 .desktop-nav .wsite-menu-item-wrap {
-  display: block;
+  display: inline-block;
   padding: 0;
 }
 
