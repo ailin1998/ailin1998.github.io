@@ -278,57 +278,60 @@ body.wsite-page-creative {
 
 @media screen and (max-width: 767px) {
   .cento-header {
-    position: relative;
-    top: auto;
-    left: auto;
-    height: auto;
-    padding: 10px 0 0;
-    border-bottom: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    height: 50px;
+    padding: 10px 0;
+    border-bottom: 2px solid #f7f7f7;
+    background: #fff;
   }
 
   .cento-header .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .cento-header .logo {
-    display: flex;
-    max-width: 100%;
-    height: auto;
-    min-height: 0;
-    margin: 0 0 12px;
-  }
-
-  .cento-header .logo .wsite-logo {
     display: block;
   }
 
+  .cento-header .logo {
+    display: table;
+    overflow-y: hidden;
+    max-width: calc(100vw - 100px);
+    height: 30px;
+    min-height: 30px;
+    margin: 0 auto;
+  }
+
+  .cento-header .logo .wsite-logo {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
   .cento-header #wsite-title {
-    font-size: 24px !important;
+    font-size: 18px !important;
     line-height: 1 !important;
   }
 
   .cento-header .hamburger {
-    position: static;
-    align-self: flex-start;
-    margin-left: 10px;
-    margin-bottom: 6px;
-  }
-
-  .cento-header .nav-wrap {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    margin: 0;
   }
 
   .mobile-nav {
-    position: relative;
-    top: auto;
-    left: auto;
-    height: auto;
-    max-height: none;
-    opacity: 1;
-    overflow: visible;
-    padding: 0 0 12px;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    z-index: 19;
+    width: 100%;
+    height: calc(100vh - 50px);
+    max-height: 0;
+    opacity: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    background: #fff;
   }
 
   body:not(.menu-open) .mobile-nav {
@@ -337,10 +340,14 @@ body.wsite-page-creative {
 
   body.menu-open .mobile-nav {
     display: block;
+    max-height: calc(100vh - 50px);
+    padding: 10px 0 18px;
+    opacity: 1;
   }
 
+  .content-wrap,
   .no-header-page .content-wrap,
   .banner-wrap {
-    margin-top: 0;
+    margin-top: 70px;
   }
 }
