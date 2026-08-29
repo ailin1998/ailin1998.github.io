@@ -246,7 +246,7 @@ body.wsite-page-creative {
 
 .creative-card img {
   display: block;
-  width: 185px;
+  width: 172px;
   max-width: 100%;
   height: auto;
   object-fit: contain;
@@ -270,7 +270,7 @@ body.wsite-page-creative {
   }
 
   .creative-card img {
-    width: 195px;
+    width: 180px;
     max-width: 100%;
     height: auto;
   }
